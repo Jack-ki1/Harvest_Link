@@ -1,5 +1,6 @@
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import{createRoot}from'react-dom/client';
+import * as THREE from 'three';
 import{Canvas,useFrame}from'@react-three/fiber';
 import{ContactShadows,Float,Html,OrbitControls}from'@react-three/drei';
 import{gsap}from'gsap';import{ScrollTrigger}from'gsap/ScrollTrigger';
