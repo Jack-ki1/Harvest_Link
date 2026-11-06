@@ -1,7 +1,7 @@
 {
   "name": "harvestlink-marketplace",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -9,16 +9,18 @@
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
     "@supabase/supabase-js": "^2.118.0",
+    "gsap": "^3.14.2",
     "lucide-react": "^1.61.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "three": "^0.176.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.1.2",
     "vite": "^8.3.5"
   },
-  "engines": {
-    "node": ">=22.12.0"
-  }
+  "engines": { "node": ">=22.12.0" }
 }
