@@ -40,6 +40,8 @@ React 19 + Vite 8 SPA; JavaScript; Supabase JS client when VITE_SUPABASE_URL and
 | Automated grading/weighing | D | Not implemented. |
 | Subscription billing/disputes/notifications | D | Not implemented. |
 
+Class C (designed but not implemented): no such pre-existing feature was evidenced in the source files inspected; concepts that appear only in the new narrative experience are not classified as existing MVP capabilities. They remain clearly labelled simulations or future opportunities.
+
 ## Shortcomings and opportunities
 - Original entry point concentrates page composition, state and dialogs in a large component.
 - Demo mode is browser-local and not shared; live catalogue intentionally does not mix sample listings with real supply.
